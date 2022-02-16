@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  width: 50%;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color {
+  cursor: pointer;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+/* Active Color */
+.active {
+  border: 5px solid yellow;
+}
